@@ -23,6 +23,7 @@ REST (REpresentational State Transfer) is an architectural style for developing 
 
 ##### 6. What is Agile Development? This will take some independent research.
 Agile Software Development is an umbrella term for a set of methods and practices based on the values and principles expressed in the Agile Manifesto.
+Embrace Change
 
 ##### 7. What is unit testing?
 Unit testing tools let you specify the behavior of individual classes or other small code units in isolation.
@@ -44,7 +45,7 @@ Easier to share when people understand it
 It Doesn't expose technical details.
 
 ##### 10. What is the relationship between Microsoft’s .NET platform and ASP.NET MVC?
-ASP.NET MVC platform addresses the weaknesses of ASP.NET Web Forms, its modern design delivers advantages to developers who want to write high-quality, maintainable code.
+ASP.NET MVC is built on top of the .NET Platform
 
 ##### 11. Chapter 1 does not discuss the MVC pattern specifically, and in a sense this entire course is an extended examination of the MVC pattern. Using an independent resource (such as Wikipedia) briefly state the responsibility of 
 ##### (a) the model

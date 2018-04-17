@@ -17,9 +17,12 @@ Meaning you can invoke it from the Web via some URL to perform an action.
 A controller is responsible for controlling the way that a user interacts with an MVC application.
 
 ##### 3. What is the name of the routing configuration file? Where is it located?
-/App_Start/WebApiConfig.cs file
+RouConfig.cs in the Appstart folder
+
 
 ##### 4. What is Razor? How does Razor treat an expression beginning with the at symbol (@)?
+It reads the c#code and translates it to HTML
+
 Razor is an Expression.
 
 Razor looks for expressions like the one I added in the listing and processes them.
@@ -30,7 +33,9 @@ When an @ symbol is followed by a Razor reserved keyword, it transitions into Ra
 It locates the Index.
 
 ##### 6. What is the purpose of MVC models?
-A view should contain only logic related to generating the user interface. A controller should only contain the bare minimum of logic required to return the right view or redirect the user to another action (flow control). Everything else should be contained in the model.
+Contains all the guts of what you do.
+
+Everything should be contained in the model. 
 
 ##### 7. What is a strongly typed view and why do we use strongly typed views?
 A strongly typed view is intended to render a specific domain type, and if I specify the type I want to work with (GuestResponse in this case), MVC can create some helpful shortcuts to make it easier.
