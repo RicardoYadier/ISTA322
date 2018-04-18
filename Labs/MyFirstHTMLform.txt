@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My First HTML form</title>
+	</head>
+	<body>
+		<h1>My First HTML </h1>
+		
+		<form method="post" action="">
+			First name: <input id="first" name="first" type="text"/>
+			<br />
+			Last name: <input id="last" name="last" type="text"/>
+			<br />
+			Username: <input id="username" name="username" type="text"/>
+			<br />
+			Pasword: <input id="Password" name="password" type="text"/>
+			<br />
+			Gender:
+				Male:<input name="gender" id="gender" type="radio" value="Male"
+				checked="checked">
+				Female:<input name="gender" id="gender" type="radio" value="Female">
+				Mixed:<input name="gender" id="gender" type="radio" value="Mixed">
+				<textarea>
+				PleaseExplain
+				
+				</textarea>
+				<br />
+				Ethnicity:
+					Asian: <input id="eth" name="eth" type="checkbox" value="asia" />
+					Black: <input id="eth" name="eth" type="checkbox" value="Black" />
+					Hispanic: <input id="eth" name="eth" type="checkbox" value="hispanic" />
+					Native American: <input id="eth" name="eth" type="checkbox" value="native american" />
+					White: <input id="eth" name="eth" type="checkbox" value="white" />
+					<br />
+				<select name="pizza" multiple="multiple" size="3">
+					<option value="blackolives">Black Olives</option>
+					<option value="pepperoni">Pepperoni</option>
+					<option value="achovies">Anchovies</option>
+					<option value="pineapple">Pineapple</option>
+					<option value="Onions">Onions</option>
+					</select>
+		<br />
+		
+		Color: <input id="fav" name="fav" type="color" value="Choose your fav color">
+		<br />
+		
+		<input type="button" value="click me" /> <br />
+		<input ID="submit" name="submit" type="submit" value="submit" />
+		<input type="reset" Value="Reset" />
+		</form>
+		
+	</body>
+</html>
